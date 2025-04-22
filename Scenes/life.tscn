@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://l35vdci36vu3"]
+
+[ext_resource type="Script" uid="uid://rutjvnm1q6ef" path="res://Scripts/life.gd" id="1_wvhb1"]
+[ext_resource type="Texture2D" uid="uid://4bog3orxeemp" path="res://Assets/Sprites/HUD/Life/sprite_0.png" id="2_64xyt"]
+[ext_resource type="Texture2D" uid="uid://ncdkssaykjf" path="res://Assets/Sprites/HUD/Life/sprite_1.png" id="3_8es6c"]
+[ext_resource type="Texture2D" uid="uid://bknqmjth4gs0q" path="res://Assets/Sprites/HUD/Life/sprite_2.png" id="4_ohwyk"]
+
+[node name="Heart" type="Node2D"]
+scale = Vector2(1.3, 1.3)
+script = ExtResource("1_wvhb1")
+full_heart = ExtResource("2_64xyt")
+half_heart = ExtResource("3_8es6c")
+empty_heart = ExtResource("4_ohwyk")
+
+[node name="HeartSprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_64xyt")
