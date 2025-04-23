@@ -10,7 +10,7 @@ Git
 
 ## 🚀 Como Rodar o Projeto
 
-1° - `https://github.com/GokuDBZSSJ7/plataform-game.git`
+1° - `git clone https://github.com/GokuDBZSSJ7/plataform-game.git`
 
 2° - Você precisa ter o godot baixado, e importar o projeto nele
 
